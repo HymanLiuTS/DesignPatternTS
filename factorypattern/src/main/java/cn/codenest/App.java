@@ -1,8 +1,9 @@
 package cn.codenest;
 
 
-import cn.codenest.factory.SimpleFactory;
+import cn.codenest.factory.*;
 import cn.codenest.model.Person;
+import cn.codenest.model.Student;
 
 public class App {
     public static void main(String[] args) {
@@ -11,5 +12,25 @@ public class App {
         p.say();
         p = simpleFactory.build("teacher");
         p.say();
+
+        MultiFactory multiFactory = new MultiFactory();
+        p = multiFactory.buildStuent();
+        p.say();
+        p = multiFactory.buildTeacher();
+        p.say();
+
+        p= StaticFactory.buildStudent();
+        p.say();
+        p=StaticFactory.buildTeacher();
+        p.say();
+
+        Builder b =new StudentBuilder();
+        p=b.build();
+        p.say();
+
+        b=new TeacherBuilder();
+        p=b.build();
+        p.say();
+
     }
 }
