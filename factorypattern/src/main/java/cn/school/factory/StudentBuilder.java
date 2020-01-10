@@ -1,7 +1,7 @@
-package cn.codenest.factory;
+package cn.school.factory;
 
-import cn.codenest.model.Person;
-import cn.codenest.model.Student;
+import cn.school.model.Person;
+import cn.school.model.Student;
 
 /**
  * @author ：Hyman

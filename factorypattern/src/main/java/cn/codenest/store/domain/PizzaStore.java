@@ -1,4 +1,4 @@
-package cn.codenest.pizza.store;
+package cn.codenest.store.domain;
 
 
 import cn.codenest.pizza.domain.Pizza;

@@ -1,36 +1,23 @@
 package cn.codenest;
 
+import cn.codenest.store.domain.ChicagoStylePizzaStore;
+import cn.codenest.store.domain.NYPizzaStore;
+import cn.codenest.store.domain.PizzaStore;
 
-import cn.codenest.factory.*;
-import cn.codenest.model.Person;
-import cn.codenest.model.Student;
-
+/**
+ * <h3>designpatternts</h3>
+ * <p>测试类</p>
+ *
+ * @author : hyman
+ * @date : 2020-01-09 11:29
+ **/
 public class App {
+
     public static void main(String[] args) {
-        SimpleFactory simpleFactory = new SimpleFactory();
-        Person p = simpleFactory.build("student");
-        p.say();
-        p = simpleFactory.build("teacher");
-        p.say();
+        PizzaStore store=new NYPizzaStore();
+        store.orderPizza("cheese");
 
-        MultiFactory multiFactory = new MultiFactory();
-        p = multiFactory.buildStuent();
-        p.say();
-        p = multiFactory.buildTeacher();
-        p.say();
-
-        p= StaticFactory.buildStudent();
-        p.say();
-        p=StaticFactory.buildTeacher();
-        p.say();
-
-        Builder b =new StudentBuilder();
-        p=b.build();
-        p.say();
-
-        b=new TeacherBuilder();
-        p=b.build();
-        p.say();
-
+        store=new ChicagoStylePizzaStore();
+        store.orderPizza("cheese");
     }
 }

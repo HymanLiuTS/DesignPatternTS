@@ -1,4 +1,4 @@
-package cn.codenest.model;
+package cn.school.model;
 
 /**
  * @author ：Hyman

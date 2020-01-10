@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/factorypattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/FreshClams.java" charset="GBK" />
   </component>
 </project>

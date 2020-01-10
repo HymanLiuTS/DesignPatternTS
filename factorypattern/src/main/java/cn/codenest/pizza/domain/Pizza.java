@@ -1,5 +1,9 @@
 package cn.codenest.pizza.domain;
 
+import cn.codenest.ingredient.entry.Dough;
+import cn.codenest.ingredient.entry.Sauce;
+import cn.codenest.ingredient.factory.PizzaIngredientFactory;
+
 /**
  * <h3>designpatternts</h3>
  * <p>比萨抽象类</p>
@@ -8,16 +12,12 @@ package cn.codenest.pizza.domain;
  * @date : 2020-01-09 08:58
  **/
 public abstract class Pizza {
-    String name;
-    String dough;
-    String sauce;
+    protected Dough dough;
+    protected String name;
+    protected PizzaIngredientFactory pizzaIngredientFactory;
+    protected Sauce sauce;
 
-    public void prepare() {
-        System.out.println("Pareparing " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce...");
-        System.out.println("Adding toppings...");
-    }
+    public abstract void prepare();
 
     public void bake() {
         System.out.println("Bake for 25 minuxtes..");
@@ -33,5 +33,9 @@ public abstract class Pizza {
 
     public String getName() {
         return this.name;
+    }
+
+    public String toString() {
+        return String.format("name:%s,dough:%s,sauce:%s", name, dough, sauce);
     }
 }
