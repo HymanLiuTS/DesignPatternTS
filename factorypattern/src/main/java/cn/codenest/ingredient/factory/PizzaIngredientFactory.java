@@ -10,38 +10,20 @@ import cn.codenest.ingredient.entry.Veggies;
 /**
  * @author Hyman
  * @version 1.0
- * @created 10-1ÔÂ-2020 10:14:44
+ * @created 14-1ÔÂ-2020 20:11:41
  */
-public abstract class PizzaIngredientFactory {
+public interface PizzaIngredientFactory {
 
-	public PizzaIngredientFactory(){
+	public Cheese createCheese();
 
-	}
+	public Clams createClam();
 
-	public void finalize() throws Throwable {
+	public Dough createDough();
 
-	}
-	public Cheese createCheese(){
-		return null;
-	}
+	public Pepperoni createPepperoni();
 
-	public Clams createClam(){
-		return null;
-	}
+	public Sauce createSauce();
 
-	public Dough createDough(){
-		return null;
-	}
+	public Veggies[] createVeggies();
 
-	public Pepperoni createPepperoni(){
-		return null;
-	}
-
-	public Sauce createSauce(){
-		return null;
-	}
-
-	public Veggies[] createVeggies(){
-		return null;
-	}
-}//end PizzaIngredientFactory
+}

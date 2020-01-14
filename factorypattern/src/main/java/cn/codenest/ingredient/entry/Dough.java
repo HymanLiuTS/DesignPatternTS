@@ -4,15 +4,8 @@ package cn.codenest.ingredient.entry;
 /**
  * @author Hyman
  * @version 1.0
- * @created 10-1ÔÂ-2020 10:14:23
+ * @created 14-1ÔÂ-2020 20:02:31
  */
-public class Dough {
+public interface Dough {
 
-	public Dough(){
-
-	}
-
-	public void finalize() throws Throwable {
-
-	}
-}//end Dough
+}

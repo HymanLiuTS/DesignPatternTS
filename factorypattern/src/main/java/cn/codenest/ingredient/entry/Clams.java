@@ -4,15 +4,8 @@ package cn.codenest.ingredient.entry;
 /**
  * @author Hyman
  * @version 1.0
- * @created 10-1ÔÂ-2020 10:14:21
+ * @created 14-1ÔÂ-2020 20:02:29
  */
-public class Clams {
+public interface Clams {
 
-	public Clams(){
-
-	}
-
-	public void finalize() throws Throwable {
-
-	}
-}//end Clams
+}

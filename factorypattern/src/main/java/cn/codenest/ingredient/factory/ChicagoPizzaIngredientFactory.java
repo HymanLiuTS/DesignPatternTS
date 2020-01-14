@@ -1,42 +1,54 @@
 package cn.codenest.ingredient.factory;
 
-import cn.codenest.ingredient.entry.*;
+import cn.codenest.ingredient.entry.Cheese;
+import cn.codenest.ingredient.entry.Clams;
+import cn.codenest.ingredient.entry.Dough;
+import cn.codenest.ingredient.entry.Pepperoni;
+import cn.codenest.ingredient.entry.Sauce;
+import cn.codenest.ingredient.entry.Veggies;
+import cn.codenest.ingredient.entry.FrezzingClams;
+import cn.codenest.ingredient.entry.ReggianoCheese;
+import cn.codenest.ingredient.entry.ThickCrustDough;
+import cn.codenest.ingredient.entry.PlumTomatoSauce;
+import cn.codenest.ingredient.entry.HotPepperoni;
+import cn.codenest.ingredient.entry.FreshVeggies;
 
 /**
  * @author Hyman
  * @version 1.0
- * @created 10-1ï¿½ï¿½-2020 10:14:41
+ * @created 14-1ÔÂ-2020 20:03:17
  */
-public class ChicagoPizzaIngredientFactory extends PizzaIngredientFactory {
+public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
-	public ChicagoPizzaIngredientFactory(){
+    public ChicagoPizzaIngredientFactory() {
 
-	}
+    }
 
-	public void finalize() throws Throwable {
-		super.finalize();
-	}
-	public Cheese createCheese(){
-		return null;
-	}
+    public void finalize() throws Throwable {
+        super.finalize();
+    }
 
-	public Clams createClam(){
-		return null;
-	}
+    public Cheese createCheese() {
+        return new ReggianoCheese();
+    }
 
-	public Dough createDough(){
-		return null;
-	}
+    public Clams createClam() {
+        return new FrezzingClams();
+    }
 
-	public Pepperoni createPepperoni(){
-		return null;
-	}
+    public Dough createDough() {
+        return new ThickCrustDough();
+    }
 
-	public Sauce createSauce(){
-		return null;
-	}
+    public Pepperoni createPepperoni() {
+        return new HotPepperoni();
+    }
 
-	public Veggies[] createVeggies(){
-		return null;
-	}
+    public Sauce createSauce() {
+        return new PlumTomatoSauce();
+    }
+
+    public Veggies[] createVeggies() {
+        return new FreshVeggies[0];
+    }
 }//end ChicagoPizzaIngredientFactory

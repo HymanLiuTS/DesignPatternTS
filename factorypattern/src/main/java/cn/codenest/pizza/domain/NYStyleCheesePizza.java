@@ -1,7 +1,7 @@
 package cn.codenest.pizza.domain;
 
-import cn.codenest.ingredient.entry.Dough;
-import cn.codenest.ingredient.entry.Sauce;
+import cn.codenest.ingredient.factory.ChicagoPizzaIngredientFactory;
+import cn.codenest.ingredient.factory.NYPizzaIngredientFactory;
 
 /**
  * <h3>designpatternts</h3>
@@ -13,16 +13,17 @@ import cn.codenest.ingredient.entry.Sauce;
 public class NYStyleCheesePizza extends Pizza {
     public NYStyleCheesePizza() {
         name = "NY Style sauce and cheese Pizza";
-        dough = new Dough();
-        sauce = new Sauce();
+        this.pizzaIngredientFactory=new NYPizzaIngredientFactory();
     }
 
 
     @Override
     public void prepare() {
         System.out.println("Pareparing NYStyleCheesePizza " + name);
+        dough=this.pizzaIngredientFactory.createDough();
         System.out.println("Tossing dough:" + dough.toString());
+        sauce=this.pizzaIngredientFactory.createSauce();
         System.out.println("Adding sauce:" + sauce.toString());
-        System.out.println("Adding toppings to 5...");
+        System.out.println("Adding toppings to 10...");
     }
 }

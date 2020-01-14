@@ -5,38 +5,39 @@ import cn.codenest.ingredient.entry.*;
 /**
  * @author Hyman
  * @version 1.0
- * @created 10-1ï¿½ï¿½-2020 10:14:43
+ * @created 14-1ÔÂ-2020 20:03:17
  */
-public class NYPizzaIngredientFactory extends PizzaIngredientFactory {
+public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 
-	public NYPizzaIngredientFactory(){
+    public NYPizzaIngredientFactory() {
 
-	}
+    }
 
-	public void finalize() throws Throwable {
-		super.finalize();
-	}
-	public Cheese createCheese(){
-		return null;
-	}
+    public void finalize() throws Throwable {
+        super.finalize();
+    }
 
-	public Clams createClam(){
-		return null;
-	}
+    public Cheese createCheese() {
+        return new MozzarellaCheese();
+    }
 
-	public Dough createDough(){
-		return null;
-	}
+    public Clams createClam() {
+        return new FreshClams();
+    }
 
-	public Pepperoni createPepperoni(){
-		return null;
-	}
+    public Dough createDough() {
+        return new ThinCrustDough();
+    }
 
-	public Sauce createSauce(){
-		return null;
-	}
+    public Pepperoni createPepperoni() {
+        return new HotPepperoni();
+    }
 
-	public Veggies[] createVeggies(){
-		return null;
-	}
+    public Sauce createSauce() {
+        return new MarinaraSauce();
+    }
+
+    public Veggies[] createVeggies() {
+        return new FreshVeggies[0];
+    }
 }//end NYPizzaIngredientFactory

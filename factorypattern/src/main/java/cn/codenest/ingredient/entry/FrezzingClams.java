@@ -4,15 +4,15 @@ package cn.codenest.ingredient.entry;
 /**
  * @author Hyman
  * @version 1.0
- * @created 10-1ÔÂ-2020 10:14:25
+ * @created 14-1ÔÂ-2020 20:02:32
  */
-public class FrezzingClams extends Clams {
+public class FrezzingClams implements Clams {
 
 	public FrezzingClams(){
 
 	}
 
 	public void finalize() throws Throwable {
-		super.finalize();
+
 	}
 }//end FrezzingClams

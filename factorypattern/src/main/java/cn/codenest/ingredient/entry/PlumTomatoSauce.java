@@ -4,15 +4,15 @@ package cn.codenest.ingredient.entry;
 /**
  * @author Hyman
  * @version 1.0
- * @created 14-1ÔÂ-2020 20:02:31
+ * @created 14-1ÔÂ-2020 20:02:39
  */
-public class FreshClams implements Clams {
+public class PlumTomatoSauce implements Sauce {
 
-	public FreshClams(){
+	public PlumTomatoSauce(){
 
 	}
 
 	public void finalize() throws Throwable {
 
 	}
-}//end FreshClams
+}//end PlumTomatoSauce
