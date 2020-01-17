@@ -16,7 +16,6 @@ import cn.codenest.ingredient.entry.FreshVeggies;
 /**
  * @author Hyman
  * @version 1.0
- * @created 14-1ÔÂ-2020 20:03:17
  */
 public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 

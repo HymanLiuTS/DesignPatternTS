@@ -10,7 +10,6 @@ import cn.codenest.ingredient.entry.Veggies;
 /**
  * @author Hyman
  * @version 1.0
- * @created 14-1ÔÂ-2020 20:11:41
  */
 public interface PizzaIngredientFactory {
 

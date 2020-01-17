@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/factorypattern" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Cheese.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Clams.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Dough.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/FreshClams.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/FreshVeggies.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/FrezzingClams.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/HotPepperoni.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/MarinaraSauce.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/MozzarellaCheese.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Pepperoni.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/PlumTomatoSauce.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/ReggianoCheese.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Sauce.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/ThickCrustDough.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/ThinCrustDough.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Veggies.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/factory/ChicagoPizzaIngredientFactory.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/factory/NYPizzaIngredientFactory.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/factory/PizzaIngredientFactory.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Cheese.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Clams.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Dough.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/FreshClams.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/FreshVeggies.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/FrezzingClams.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/HotPepperoni.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/MarinaraSauce.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/MozzarellaCheese.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Pepperoni.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/PlumTomatoSauce.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/ReggianoCheese.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Sauce.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/ThickCrustDough.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/ThinCrustDough.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Veggies.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/factory/ChicagoPizzaIngredientFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/factory/NYPizzaIngredientFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/factory/PizzaIngredientFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observerpattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/displayelement/CurrentConditionDisplay.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/displayelement/DisplayElement.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/displayelement/ForecastDisplay.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/displayelement/StatisticsDisplay.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/displayelement/ThirdpartDisplay.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/observer/Observer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/weatherdata/Subject.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/weatherdata/WeatherData.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/singletonpattern" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/singletonpattern" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/Singleton1.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/Singleton2.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/Singleton3.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/Singleton4.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/ingredient/entry/FreshClams.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/ingredient/factory/ChicagoPizzaIngredientFactory.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/ingredient/factory/NYPizzaIngredientFactory.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/ingredient/factory/PizzaIngredientFactory.java" charset="GBK" />
-    <file url="PROJECT" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/Singleton1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/Singleton2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/Singleton3.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singletonpattern/src/main/java/cn/codenest/Singleton4.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
