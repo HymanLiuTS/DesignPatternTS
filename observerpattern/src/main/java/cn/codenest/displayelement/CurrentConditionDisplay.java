@@ -9,17 +9,20 @@ import cn.codenest.weatherdata.Subject;
  */
 public class CurrentConditionDisplay implements cn.codenest.displayelement.DisplayElement, Observer {
 
-	public Subject m_Subject;
+	private float temperature;
+	private float humidity;
+	public Subject weatherData;
 
-	public CurrentConditionDisplay(){
-
+	public CurrentConditionDisplay(Subject weatherData){
+		this.weatherData=weatherData;
+		weatherData.registerObserver(this);
 	}
 
 	public void finalize() throws Throwable {
 
 	}
 	public void display(){
-
+		System.out.println("Current condition: "+temperature+"F degrees and "+humidity+"% humidity");
 	}
 
 	/**
@@ -29,6 +32,8 @@ public class CurrentConditionDisplay implements cn.codenest.displayelement.Displ
 	 * @param pressure
 	 */
 	public void update(float temp, float humidity, float pressure){
-
+		this.temperature=temp;
+		this.humidity=humidity;
+		display();
 	}
 }//end CurrentConditionDisplay
