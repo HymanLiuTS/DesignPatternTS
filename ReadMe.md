@@ -100,3 +100,7 @@ public class Singleton4 {
 ```
 * 说明：<br>
 （1）双重检查加锁，首先检查实例是否创建，如果未创建才进行同步，只有第一次会同步而且符合使用时才创建的原则。<br><br>
+
+## 3、观察者模式
+![avatar](http://123.207.107.215/images/designpattern/observer.jpg)<br>
+
