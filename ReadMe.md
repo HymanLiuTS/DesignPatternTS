@@ -104,3 +104,8 @@ public class Singleton4 {
 ## 3、观察者模式
 ![avatar](http://123.207.107.215/images/designpattern/observer.jpg)<br>
 
+* 说明：<br>
+（1）被观察者WeatherData实现Subject接口，提供注册、删除观察者以及通知观察者的功能。<br><br>
+（2）观察者CurrentConditionDisplay等实现Observer接口，直接关联被观察者（被观察者作为观察者的成员变量），通过被观察者对象将自身注册进被观察者的观察者列表中。<br><br>
+（3）当被观察者的数据发生变化时，直接通过notifyObservers方法遍历通知每个注册的观察者。<br><br>
+（4）在各自观察者的内部，实现数据变化时的业务逻辑。<br><br>
