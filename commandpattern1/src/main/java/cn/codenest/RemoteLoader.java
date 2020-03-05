@@ -15,6 +15,7 @@ public class RemoteLoader {
         GrageDoorCloseCommand grageDoorCloseCommand=new GrageDoorCloseCommand(door);
         remoteControl.setCommand(1,garageDoorOpenCommand,grageDoorCloseCommand);
         remoteControl.onButtonWasPressed(0);
+        remoteControl.undoButtonWasPressed(0);
         remoteControl.offButtonWasPressed(0);
         remoteControl.onButtonWasPressed(1);
         remoteControl.offButtonWasPressed(1);

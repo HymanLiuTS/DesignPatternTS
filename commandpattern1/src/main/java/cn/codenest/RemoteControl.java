@@ -13,6 +13,7 @@ public class RemoteControl {
     public RemoteControl() {
         onCommands=new Command[7];
         offCommands=new Command[7];
+        undoCommand=new NoCommand();
         for(int i=0;i<7;i++){
             onCommands[i]=new NoCommand();
             offCommands[i]=new NoCommand();
@@ -27,6 +28,10 @@ public class RemoteControl {
     public void offButtonWasPressed(int slot) {
         this.offCommands[slot].execute();
         undoCommand=this.offCommands[slot];
+    }
+
+    public void undoButtonWasPressed(int slot) {
+       undoCommand.undo();
     }
 
     /**
