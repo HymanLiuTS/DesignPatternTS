@@ -7,7 +7,6 @@ package cn.codenest;
  * @created
  */
 public interface Command {
-
     public void execute();
-
+    public void undo();
 }
