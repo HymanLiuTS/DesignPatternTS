@@ -36,5 +36,15 @@ public class RemoteLoader {
         remoteControl.onButtonWasPressed(1);
         remoteControl.onButtonWasPressed(2);
         remoteControl.undoButtonWasPressed(2);
+
+        Command[] partyOn={lightOnCommand,ceilingFanHighCommand};
+        Command[] partyOff={lightOffCommand,ceilingFanOffCommand};
+        MacroCommand partyOnMacro=new MacroCommand(partyOn);
+        MacroCommand partyOffMacro=new MacroCommand(partyOff);
+
+        remoteControl.setCommand(0,partyOnMacro,partyOffMacro);
+        remoteControl.onButtonWasPressed(0);
+        remoteControl.offButtonWasPressed(0);
+        remoteControl.undoButtonWasPressed(0);
     }
 }
