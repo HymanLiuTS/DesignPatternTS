@@ -13,6 +13,7 @@
         <module>observerpattern</module>
         <module>decoratorpattern</module>
         <module>commandpattern1</module>
+        <module>adaptorpattern</module>
     </modules>
     <packaging>pom</packaging>
 
