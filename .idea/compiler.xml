@@ -10,6 +10,7 @@
         <module name="decoratorpattern" />
         <module name="observerpattern" />
         <module name="singletonpattern" />
+        <module name="templatemethodpattern" />
         <module name="factorypattern" />
         <module name="commandpattern1" />
       </profile>

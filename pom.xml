@@ -14,6 +14,7 @@
         <module>decoratorpattern</module>
         <module>commandpattern1</module>
         <module>adaptorpattern</module>
+        <module>templatemethodpattern</module>
     </modules>
     <packaging>pom</packaging>
 
