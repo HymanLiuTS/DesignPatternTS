@@ -15,6 +15,7 @@
         <module>commandpattern1</module>
         <module>adaptorpattern</module>
         <module>templatemethodpattern</module>
+        <module>strategePattern</module>
     </modules>
     <packaging>pom</packaging>
 

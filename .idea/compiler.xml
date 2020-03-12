@@ -12,6 +12,7 @@
         <module name="singletonpattern" />
         <module name="templatemethodpattern" />
         <module name="factorypattern" />
+        <module name="strategePattern" />
         <module name="commandpattern1" />
       </profile>
     </annotationProcessing>
