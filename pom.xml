@@ -16,6 +16,7 @@
         <module>adaptorpattern</module>
         <module>templatemethodpattern</module>
         <module>strategePattern</module>
+        <module>iteratorpattern</module>
     </modules>
     <packaging>pom</packaging>
 
