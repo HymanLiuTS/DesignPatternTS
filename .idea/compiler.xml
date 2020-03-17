@@ -11,8 +11,8 @@
         <module name="observerpattern" />
         <module name="singletonpattern" />
         <module name="iteratorpattern" />
-        <module name="templatemethodpattern" />
         <module name="factorypattern" />
+        <module name="templatemethodpattern" />
         <module name="strategePattern" />
         <module name="commandpattern1" />
       </profile>

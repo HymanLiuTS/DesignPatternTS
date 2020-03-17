@@ -1,4 +1,5 @@
 package cn.codenest;
+import java.util.Iterator;
 
 
 /**
@@ -8,18 +9,26 @@ package cn.codenest;
  */
 public class DinnerMenuIterator implements Iterator {
 
-	public DinnerMenuIterator(){
+	private MenuItem[] menuItems;
+	private  int position=0;
 
+	public DinnerMenuIterator(MenuItem[] menuItems){
+		this.menuItems=menuItems;
 	}
 
-	public void finalize() throws Throwable {
-
-	}
 	public boolean hasNext(){
-		return false;
+		return position<this.menuItems.length;
 	}
 
 	public Object next(){
+		if(this.hasNext()){
+			return menuItems[position++];
+		}
 		return null;
+	}
+
+	@Override
+	public void remove() {
+		throw new UnsupportedOperationException();
 	}
 }//end DinnerMenuIterator
