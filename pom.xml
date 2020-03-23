@@ -18,6 +18,7 @@
         <module>strategePattern</module>
         <module>iteratorpattern</module>
         <module>componentpattern</module>
+        <module>statepattern</module>
     </modules>
     <packaging>pom</packaging>
 

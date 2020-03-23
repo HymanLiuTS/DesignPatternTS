@@ -64,4 +64,8 @@ public abstract class MenuComponent {
 
 		return 0;
 	}
+
+	public Iterator createIterator(){
+		return null;
+	}
 }//end MenuComponent

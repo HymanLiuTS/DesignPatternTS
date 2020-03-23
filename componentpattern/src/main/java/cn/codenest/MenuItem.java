@@ -1,6 +1,8 @@
 package cn.codenest;
 
 
+import java.util.Iterator;
+
 /**
  * @author Hyman
  * @version 1.0
@@ -27,5 +29,9 @@ public class MenuItem extends MenuComponent {
 		System.out.println(","+getPrice());
 		System.out.println("    --"+getDescription());
 		return 0;
+	}
+
+	public Iterator createIterator(){
+		return (Iterator) new NullIterator();
 	}
 }//end MenuItem

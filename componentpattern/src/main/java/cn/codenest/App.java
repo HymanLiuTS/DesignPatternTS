@@ -21,7 +21,9 @@ public class App
         dinerMenu.addComponent(new MenuItem("Pasta"," bread",3.69));
         dinerMenu.addComponent(new MenuItem("Apple price"," ice cream",1.059) );
 
+
         Waittress waittress=new Waittress(allMenus);
         waittress.printMenu();
+        waittress.printMenuPlus();
     }
 }

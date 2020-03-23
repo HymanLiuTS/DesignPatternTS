@@ -1,6 +1,8 @@
 package cn.codenest;
 
 
+import java.util.Iterator;
+
 /**
  * @author Hyman
  * @version 1.0
@@ -16,5 +18,14 @@ public class Waittress {
 
 	public void printMenu() throws Throwable {
 		allMenuComponent.print();
+	}
+
+	public void printMenuPlus(){
+		Iterator it=allMenuComponent.createIterator();
+		System.out.println("find it");
+		while(it.hasNext()){
+			MenuComponent menuComponent=(MenuComponent)it.next();
+			menuComponent.print();
+		}
 	}
 }//end Waittress

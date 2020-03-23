@@ -13,6 +13,7 @@
         <module name="iteratorpattern" />
         <module name="factorypattern" />
         <module name="componentpattern" />
+        <module name="statepattern" />
         <module name="templatemethodpattern" />
         <module name="strategePattern" />
         <module name="commandpattern1" />
