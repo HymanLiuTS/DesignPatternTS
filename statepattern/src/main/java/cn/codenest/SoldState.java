@@ -8,26 +8,32 @@ package cn.codenest;
  */
 public class SoldState implements State {
 
-	public SoldState(){
-
+	GumballMachine gumballMachine;
+	public SoldState(GumballMachine gumballMachine){
+		this.gumballMachine=gumballMachine;
 	}
 
 	public void finalize() throws Throwable {
 
 	}
 	public void insertQuarter(){
-
+		System.out.println("please wait,we are already giving you a gumball");
 	}
 
 	public void ejectQuarter(){
-
+		System.out.println("Sorry,you already turned the crank");
 	}
 
 	public void turnCrank(){
-
+		System.out.println("Turning twice can not give you another gumball");
 	}
 
 	public void dispense(){
-
+		System.out.println("Give you a gumball");
+		if(gumballMachine.count>0){
+			gumballMachine.setState(gumballMachine.getNoQuarterState());
+		}else {
+			gumballMachine.setState(gumballMachine.getSoldOutState());
+		}
 	}
 }//end SoldState

@@ -8,26 +8,28 @@ package cn.codenest;
  */
 public class NoQuarterState implements State {
 
-	public NoQuarterState(){
-
+	GumballMachine gumballMachine=null;
+	public NoQuarterState(GumballMachine gumballMachine){
+		this.gumballMachine=gumballMachine;
 	}
 
 	public void finalize() throws Throwable {
 
 	}
 	public void insertQuarter(){
-
+		System.out.println("you have inserted  quarter");
+		gumballMachine.setState(gumballMachine.getHasQuarterState());
 	}
 
 	public void ejectQuarter(){
-
+		System.out.println("you have not inserted  quarter");
 	}
 
 	public void turnCrank(){
-
+		System.out.println("you should insert quarter firstly");
 	}
 
 	public void dispense(){
-
+		System.out.println("No gumball dispensed");
 	}
 }//end NoQuarterState
