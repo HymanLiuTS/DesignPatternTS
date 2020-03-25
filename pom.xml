@@ -19,6 +19,7 @@
         <module>iteratorpattern</module>
         <module>componentpattern</module>
         <module>statepattern</module>
+        <module>proxypattern</module>
     </modules>
     <packaging>pom</packaging>
 

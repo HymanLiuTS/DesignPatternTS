@@ -9,6 +9,7 @@
         <module name="adaptorpattern" />
         <module name="decoratorpattern" />
         <module name="observerpattern" />
+        <module name="proxypattern" />
         <module name="singletonpattern" />
         <module name="iteratorpattern" />
         <module name="factorypattern" />
