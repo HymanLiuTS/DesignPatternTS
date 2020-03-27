@@ -184,3 +184,8 @@ public class Singleton4 {
 ![avatar](http://123.207.107.215/images/designpattern/statepattern.jpg)<br>
 * 说明：<br>
 （1）状态模式：将状态封装成独立的类，并将动作委托到代表当前状态的对象。<br>
+
+## 13、代理模式
+![avatar](http://123.207.107.215/images/designpattern/proxypattern.jpg)<br>
+* 说明：<br>
+（1）代理模式：代理模式为另一个对象提供一个替身或者占位符以控制对这个对象的访问。<br>
