@@ -1,4 +1,4 @@
-package cn.codenest.gumball.server;
+package cn.codenest.remoteproxy.server;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

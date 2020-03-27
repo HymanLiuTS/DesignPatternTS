@@ -1,4 +1,4 @@
-package cn.codenest.server;
+package cn.codenest.cmi.server;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

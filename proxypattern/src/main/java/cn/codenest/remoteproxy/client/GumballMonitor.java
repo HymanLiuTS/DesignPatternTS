@@ -1,6 +1,6 @@
-package cn.codenest.gumball.client;
+package cn.codenest.remoteproxy.client;
 
-import cn.codenest.gumball.server.GumballMachineRemote;
+import cn.codenest.remoteproxy.server.GumballMachineRemote;
 
 import java.rmi.RemoteException;
 

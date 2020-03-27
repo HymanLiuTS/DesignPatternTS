@@ -1,6 +1,8 @@
-package cn.codenest.client;
+package cn.codenest.cmi.client;
 
-import cn.codenest.server.MyRemote;
+
+
+import cn.codenest.cmi.server.MyRemote;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;

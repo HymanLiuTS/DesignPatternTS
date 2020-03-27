@@ -1,4 +1,4 @@
-package cn.codenest.gumball.server;
+package cn.codenest.remoteproxy.server;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
