@@ -20,6 +20,7 @@
         <module>componentpattern</module>
         <module>statepattern</module>
         <module>proxypattern</module>
+        <module>compoundpattern</module>
     </modules>
     <packaging>pom</packaging>
 

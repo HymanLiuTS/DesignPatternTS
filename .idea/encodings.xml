@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/adaptorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commandpattern1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/componentpattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/compoundpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/decoratorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/factorypattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Cheese.java" charset="UTF-8" />
