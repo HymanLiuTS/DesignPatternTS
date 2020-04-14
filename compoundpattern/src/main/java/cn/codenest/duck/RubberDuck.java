@@ -1,4 +1,4 @@
-package cn.codenest;
+package cn.codenest.duck;
 
 
 /**

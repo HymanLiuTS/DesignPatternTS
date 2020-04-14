@@ -1,14 +1,14 @@
-package cn.codenest;
+package cn.codenest.duck;
 
 
 /**
  * @author Hyman
  * @version 1.0
- * @created 07-4月-2020 19:17:06
+ * @created 07-4月-2020 19:17:01
  */
-public class RedheadDuck implements Quackable {
+public class Mallarduck implements Quackable {
 
-	public RedheadDuck(){
+	public Mallarduck(){
 
 	}
 
@@ -18,4 +18,4 @@ public class RedheadDuck implements Quackable {
 	public void quack(){
 		System.out.println("Quack");
 	}
-}//end RedheadDuck
+}//end Mallarduck

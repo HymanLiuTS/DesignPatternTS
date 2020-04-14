@@ -1,4 +1,4 @@
-package cn.codenest;
+package cn.codenest.duck;
 
 
 /**
@@ -16,6 +16,6 @@ public class DuckCall implements Quackable {
 
 	}
 	public void quack(){
-		System.out.println("Kwal");
+		System.out.println("Kwak");
 	}
 }//end DuckCall
