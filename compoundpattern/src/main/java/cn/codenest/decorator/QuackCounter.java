@@ -1,6 +1,7 @@
 package cn.codenest.decorator;
 
 import cn.codenest.duck.Quackable;
+import cn.codenest.observ.observer.Observer;
 
 /**
  * @author ：Hyman
@@ -26,5 +27,20 @@ public class QuackCounter implements Quackable {
 
     public  static int getQuack(){
         return numberOfQuacks;
+    }
+
+    @Override
+    public void deleteObserver(Observer observer) {
+        duck.deleteObserver(observer);
+    }
+
+    @Override
+    public void registerObserver(Observer observer) {
+        duck.registerObserver(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        duck.notifyObservers();
     }
 }

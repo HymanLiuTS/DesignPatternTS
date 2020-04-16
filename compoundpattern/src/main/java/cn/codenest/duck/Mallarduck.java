@@ -1,5 +1,6 @@
 package cn.codenest.duck;
-
+import cn.codenest.observ.observable.Observable;
+import cn.codenest.observ.observer.Observer;
 
 /**
  * @author Hyman
@@ -8,14 +9,28 @@ package cn.codenest.duck;
  */
 public class Mallarduck implements Quackable {
 
+	Observable observable;
 	public Mallarduck(){
-
+		observable=new Observable(this);
 	}
 
-	public void finalize() throws Throwable {
-
-	}
 	public void quack(){
 		System.out.println("Quack");
+		notifyObservers();
+	}
+
+	@Override
+	public void registerObserver(Observer observer) {
+		observable.registerObserver(observer);
+	}
+
+	@Override
+	public void deleteObserver(Observer observer) {
+		observable.deleteObserver(observer);
+	}
+
+	@Override
+	public void notifyObservers() {
+		observable.notifyObservers();
 	}
 }//end Mallarduck

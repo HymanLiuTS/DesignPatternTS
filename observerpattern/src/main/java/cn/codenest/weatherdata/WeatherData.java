@@ -1,6 +1,6 @@
 package cn.codenest.weatherdata;
 
-import cn.codenest.observer.Observer;
+import cn.codenest.observ.Observer;
 
 import java.util.ArrayList;
 

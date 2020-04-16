@@ -1,6 +1,6 @@
 package cn.codenest.displayelement;
 
-import cn.codenest.observer.Observer;
+import cn.codenest.observ.Observer;
 
 /**
  * @author Hyman

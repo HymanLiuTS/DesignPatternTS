@@ -1,4 +1,4 @@
-package cn.codenest.observer;
+package cn.codenest.observ;
 
 
 /**

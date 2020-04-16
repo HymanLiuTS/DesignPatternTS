@@ -7,6 +7,7 @@ import cn.codenest.factory.AbstractDuckFactory;
 import cn.codenest.factory.DuckFactory;
 import cn.codenest.goose.Goose;
 import cn.codenest.goose.GooseAdapter;
+import cn.codenest.observ.observer.Quackologist;
 
 /**
  * Hello world!
@@ -27,7 +28,7 @@ public class DuckSimulator
         Quackable duckCall=duckFactory.createDuckCall();
         Quackable rubberDuck=duckFactory.createRubberDuck();
         Quackable gooseDuck=new GooseAdapter(new Goose());
-        System.out.println("\nDuck Simulartor: With Composite - Flocks");
+
 
         Flock flockOfDucks=new Flock();
         flockOfDucks.add(mallardDuck);
@@ -35,6 +36,8 @@ public class DuckSimulator
         flockOfDucks.add(duckCall);
         flockOfDucks.add(rubberDuck);
         flockOfDucks.add(gooseDuck);
+
+
 
         Flock flockOfMallards=new Flock();
         Quackable mallard1=duckFactory.createMallarduck();
@@ -48,11 +51,11 @@ public class DuckSimulator
         flockOfMallards.add(mallard4);
 
         flockOfDucks.add(flockOfMallards);
-        System.out.println("\nDuck Simulartor: With Whole Flock Simulation");
+        Quackologist quackologist=new Quackologist();
+        flockOfDucks.registerObserver(quackologist);
+        System.out.println("\nDuck Simulartor: With Observer");
         simulate(flockOfDucks);
-
-        System.out.println("\nDuck Simulartor: With Mallard Flock Simulation");
-        simulate(flockOfMallards);
+        
         System.out.println("The ducks quacked "+QuackCounter.getQuack()+ " times");
     }
 
