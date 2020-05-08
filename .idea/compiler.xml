@@ -12,13 +12,13 @@
         <module name="proxypattern" />
         <module name="singletonpattern" />
         <module name="iteratorpattern" />
-        <module name="factorypattern" />
-        <module name="componentpattern" />
-        <module name="compoundpattern" />
-        <module name="statepattern" />
-        <module name="templatemethodpattern" />
-        <module name="strategePattern" />
         <module name="commandpattern1" />
+        <module name="componentpattern" />
+        <module name="templatemethodpattern" />
+        <module name="compoundpattern" />
+        <module name="factorypattern" />
+        <module name="strategePattern" />
+        <module name="statepattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
