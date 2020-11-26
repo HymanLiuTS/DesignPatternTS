@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="adaptorpattern" />
-        <module name="decoratorpattern" />
-        <module name="observerpattern" />
-        <module name="proxypattern" />
+        <module name="factorypattern" />
         <module name="singletonpattern" />
-        <module name="iteratorpattern" />
+        <module name="adaptorpattern" />
         <module name="commandpattern1" />
         <module name="componentpattern" />
-        <module name="templatemethodpattern" />
-        <module name="compoundpattern" />
-        <module name="factorypattern" />
-        <module name="strategePattern" />
         <module name="statepattern" />
+        <module name="templatemethodpattern" />
+        <module name="strategePattern" />
+        <module name="eventpattern" />
+        <module name="compoundpattern" />
+        <module name="proxypattern" />
+        <module name="iteratorpattern" />
+        <module name="decoratorpattern" />
+        <module name="observerpattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eventpattern" options="-parameters" />
       <module name="factorypattern" options="" />
     </option>
   </component>

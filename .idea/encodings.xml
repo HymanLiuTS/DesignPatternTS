@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01事件模式/eventpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/adaptorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commandpattern1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/componentpattern" charset="UTF-8" />
