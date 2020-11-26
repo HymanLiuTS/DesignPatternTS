@@ -1,4 +1,4 @@
-package cn.codenest;
+package cn.codenest.静态代理;
 
 import cn.codenest.静态代理.po.Order;
 import cn.codenest.静态代理.service.OrderService;
