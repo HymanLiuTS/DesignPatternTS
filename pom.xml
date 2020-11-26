@@ -12,14 +12,12 @@
         <module>singletonpattern</module>
         <module>observerpattern</module>
         <module>decoratorpattern</module>
-        <module>commandpattern1</module>
         <module>adaptorpattern</module>
         <module>templatemethodpattern</module>
         <module>strategePattern</module>
         <module>iteratorpattern</module>
         <module>componentpattern</module>
         <module>statepattern</module>
-        <module>proxypattern</module>
         <module>compoundpattern</module>
     </modules>
     <packaging>pom</packaging>
