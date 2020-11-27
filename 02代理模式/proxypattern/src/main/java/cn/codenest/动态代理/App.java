@@ -13,6 +13,7 @@ import cn.codenest.动态代理.service.proxy.OrderServiceDynamicProxy;
  * @version: $
  */
 public class App {
+
     public static void main(String[] args) {
         Order order = new Order();
         order.setCreateTime(System.currentTimeMillis());
