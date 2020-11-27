@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/01事件模式/eventpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/02代理模式/proxypattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

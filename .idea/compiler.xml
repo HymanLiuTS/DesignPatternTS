@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="factorypattern" />
         <module name="singletonpattern" />
         <module name="adaptorpattern" />
         <module name="commandpattern1" />
         <module name="componentpattern" />
-        <module name="statepattern" />
+        <module name="factorypattern" />
         <module name="templatemethodpattern" />
         <module name="strategePattern" />
         <module name="eventpattern" />
         <module name="compoundpattern" />
         <module name="proxypattern" />
+        <module name="statepattern" />
         <module name="iteratorpattern" />
         <module name="decoratorpattern" />
         <module name="observerpattern" />
@@ -24,8 +24,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="commandpattern" target="1.7" />
-      <module name="commandpattern1" target="1.7" />
-      <module name="proxypattern" target="1.7" />
       <module name="singletonpattern" target="1.7" />
     </bytecodeTargetLevel>
   </component>

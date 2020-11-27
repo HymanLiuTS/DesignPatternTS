@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/03命令模式/commandpattern1/commandpattern1.iml" filepath="$PROJECT_DIR$/03命令模式/commandpattern1/commandpattern1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02代理模式/proxypattern/proxypattern.iml" filepath="$PROJECT_DIR$/02代理模式/proxypattern/proxypattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/singletonpattern/singletonpattern.iml" filepath="$PROJECT_DIR$/singletonpattern/singletonpattern.iml" />
     </modules>
   </component>

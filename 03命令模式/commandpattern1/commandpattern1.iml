@@ -3,9 +3,9 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/../../commandpattern1/target/classes" />
     <output-test url="file://$MODULE_DIR$/../../commandpattern1/target/test-classes" />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+    <content url="file://$MODULE_DIR$/../../03命令模式/commandpattern1">
+      <sourceFolder url="file://$MODULE_DIR$/../../03命令模式/commandpattern1/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../03命令模式/commandpattern1/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../commandpattern1/target" />
     </content>
     <orderEntry type="inheritedJdk" />
