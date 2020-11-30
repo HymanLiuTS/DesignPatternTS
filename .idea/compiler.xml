@@ -24,6 +24,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="commandpattern" target="1.7" />
+      <module name="commandpattern1" target="1.7" />
       <module name="singletonpattern" target="1.7" />
     </bytecodeTargetLevel>
   </component>
