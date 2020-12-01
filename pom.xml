@@ -8,7 +8,6 @@
     <artifactId>designpatternts</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>factorypattern</module>
         <module>singletonpattern</module>
         <module>observerpattern</module>
         <module>decoratorpattern</module>

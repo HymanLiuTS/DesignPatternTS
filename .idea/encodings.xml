@@ -5,30 +5,30 @@
     <file url="file://$PROJECT_DIR$/01事件模式/eventpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/02代理模式/proxypattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03命令模式/commandpattern1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/Cheese.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/Clams.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/Dough.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/FreshClams.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/FreshVeggies.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/FrezzingClams.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/HotPepperoni.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/MarinaraSauce.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/MozzarellaCheese.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/Pepperoni.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/PlumTomatoSauce.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/ReggianoCheese.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/Sauce.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/ThickCrustDough.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/ThinCrustDough.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/entry/Veggies.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/factory/ChicagoPizzaIngredientFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/factory/NYPizzaIngredientFactory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04工厂模式/factorypattern/src/main/java/cn/codenest/ingredient/factory/PizzaIngredientFactory.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/adaptorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/componentpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/compoundpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/decoratorpattern" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Cheese.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Clams.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Dough.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/FreshClams.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/FreshVeggies.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/FrezzingClams.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/HotPepperoni.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/MarinaraSauce.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/MozzarellaCheese.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Pepperoni.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/PlumTomatoSauce.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/ReggianoCheese.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Sauce.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/ThickCrustDough.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/ThinCrustDough.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/entry/Veggies.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/factory/ChicagoPizzaIngredientFactory.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/factory/NYPizzaIngredientFactory.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/factorypattern/src/main/java/cn/codenest/ingredient/factory/PizzaIngredientFactory.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iteratorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observerpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/displayelement/CurrentConditionDisplay.java" charset="UTF-8" />
