@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/06适配器模式/adaptorpattern/adaptorpattern.iml" filepath="$PROJECT_DIR$/06适配器模式/adaptorpattern/adaptorpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/03命令模式/commandpattern1/commandpattern1.iml" filepath="$PROJECT_DIR$/03命令模式/commandpattern1/commandpattern1.iml" />
       <module fileurl="file://$PROJECT_DIR$/04工厂模式/factorypattern/factorypattern.iml" filepath="$PROJECT_DIR$/04工厂模式/factorypattern/factorypattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/singletonpattern/singletonpattern.iml" filepath="$PROJECT_DIR$/singletonpattern/singletonpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05单例模式/singletonpattern/singletonpattern.iml" filepath="$PROJECT_DIR$/05单例模式/singletonpattern/singletonpattern.iml" />
     </modules>
   </component>
 </project>

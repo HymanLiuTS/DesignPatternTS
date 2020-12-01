@@ -8,10 +8,8 @@
     <artifactId>designpatternts</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>singletonpattern</module>
         <module>observerpattern</module>
         <module>decoratorpattern</module>
-        <module>adaptorpattern</module>
         <module>templatemethodpattern</module>
         <module>strategePattern</module>
         <module>iteratorpattern</module>

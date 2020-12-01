@@ -23,6 +23,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="adaptorpattern" target="1.7" />
       <module name="commandpattern" target="1.7" />
       <module name="commandpattern1" target="1.7" />
       <module name="factorypattern" target="1.7" />
