@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/06适配器模式/adaptorpattern/adaptorpattern.iml" filepath="$PROJECT_DIR$/06适配器模式/adaptorpattern/adaptorpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/03命令模式/commandpattern1/commandpattern1.iml" filepath="$PROJECT_DIR$/03命令模式/commandpattern1/commandpattern1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07组合和迭代器模式/componentpattern/componentpattern.iml" filepath="$PROJECT_DIR$/07组合和迭代器模式/componentpattern/componentpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/04工厂模式/factorypattern/factorypattern.iml" filepath="$PROJECT_DIR$/04工厂模式/factorypattern/factorypattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07组合和迭代器模式/iteratorpattern/iteratorpattern.iml" filepath="$PROJECT_DIR$/07组合和迭代器模式/iteratorpattern/iteratorpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/05单例模式/singletonpattern/singletonpattern.iml" filepath="$PROJECT_DIR$/05单例模式/singletonpattern/singletonpattern.iml" />
     </modules>
   </component>

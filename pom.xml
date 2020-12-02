@@ -12,8 +12,6 @@
         <module>decoratorpattern</module>
         <module>templatemethodpattern</module>
         <module>strategePattern</module>
-        <module>iteratorpattern</module>
-        <module>componentpattern</module>
         <module>statepattern</module>
         <module>compoundpattern</module>
     </modules>
