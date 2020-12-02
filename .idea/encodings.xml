@@ -33,8 +33,8 @@
     <file url="file://$PROJECT_DIR$/06适配器模式/adaptorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07组合和迭代器模式/componentpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07组合和迭代器模式/iteratorpattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08装饰模式/decoratorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/compoundpattern" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/decoratorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observerpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/displayelement/CurrentConditionDisplay.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/displayelement/DisplayElement.java" charset="UTF-8" />
