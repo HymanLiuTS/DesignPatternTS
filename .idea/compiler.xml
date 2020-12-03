@@ -31,7 +31,9 @@
       <module name="decoratorpattern" target="1.7" />
       <module name="factorypattern" target="1.7" />
       <module name="iteratorpattern" target="1.7" />
+      <module name="observerpattern" target="1.6" />
       <module name="singletonpattern" target="1.7" />
+      <module name="statepattern" target="1.7" />
       <module name="strategePattern" target="1.7" />
       <module name="templatemethodpattern" target="1.7" />
     </bytecodeTargetLevel>
