@@ -36,6 +36,7 @@
     <file url="file://$PROJECT_DIR$/07组合和迭代器模式/iteratorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08装饰模式/decoratorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09策略模式/strategePattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10模板方法模式/templatemethodpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observerpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/displayelement/CurrentConditionDisplay.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/displayelement/DisplayElement.java" charset="UTF-8" />
@@ -46,7 +47,6 @@
     <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/weatherdata/Subject.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observerpattern/src/main/java/cn/codenest/weatherdata/WeatherData.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/statepattern" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/templatemethodpattern" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
