@@ -30,6 +30,7 @@
       <module name="componentpattern" target="1.7" />
       <module name="compoundpattern" target="1.7" />
       <module name="decoratorpattern" target="1.7" />
+      <module name="dutychainpattern" target="1.7" />
       <module name="factorypattern" target="1.7" />
       <module name="iteratorpattern" target="1.7" />
       <module name="observerpattern" target="1.6" />
