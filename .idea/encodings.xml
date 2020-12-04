@@ -47,6 +47,7 @@
     <file url="file://$PROJECT_DIR$/11观察者模式/observerpattern/src/main/java/cn/codenest/weatherdata/Subject.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/11观察者模式/observerpattern/src/main/java/cn/codenest/weatherdata/WeatherData.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/12状态模式/statepattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13责任链模式/dutychainpattern" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
