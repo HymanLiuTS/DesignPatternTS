@@ -8,7 +8,8 @@
     <artifactId>designpatternts</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        
+
+        <module>brigepattern</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -11,6 +11,7 @@
         <module name="adaptorpattern" />
         <module name="commandpattern1" />
         <module name="componentpattern" />
+        <module name="brigepattern" />
         <module name="factorypattern" />
         <module name="templatemethodpattern" />
         <module name="strategePattern" />
