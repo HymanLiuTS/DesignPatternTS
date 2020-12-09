@@ -10,7 +10,9 @@
         <module name="singletonpattern" />
         <module name="adaptorpattern" />
         <module name="commandpattern1" />
+        <module name="builderpattern" />
         <module name="componentpattern" />
+        <module name="brigepattern" />
         <module name="factorypattern" />
         <module name="templatemethodpattern" />
         <module name="strategePattern" />
@@ -24,22 +26,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="adaptorpattern" target="1.7" />
-      <module name="brigepattern" target="1.7" />
-      <module name="builderpattern" target="1.7" />
       <module name="commandpattern" target="1.7" />
-      <module name="commandpattern1" target="1.7" />
-      <module name="componentpattern" target="1.7" />
       <module name="compoundpattern" target="1.7" />
-      <module name="decoratorpattern" target="1.7" />
-      <module name="dutychainpattern" target="1.7" />
-      <module name="factorypattern" target="1.7" />
-      <module name="iteratorpattern" target="1.7" />
-      <module name="observerpattern" target="1.6" />
-      <module name="singletonpattern" target="1.7" />
-      <module name="statepattern" target="1.7" />
-      <module name="strategePattern" target="1.7" />
-      <module name="templatemethodpattern" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

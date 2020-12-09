@@ -10,6 +10,20 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/01事件模式/eventpattern/pom.xml" />
         <option value="$PROJECT_DIR$/02代理模式/proxypattern/pom.xml" />
+        <option value="$PROJECT_DIR$/03命令模式/commandpattern1/pom.xml" />
+        <option value="$PROJECT_DIR$/04工厂模式/factorypattern/pom.xml" />
+        <option value="$PROJECT_DIR$/05单例模式/singletonpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/06适配器模式/adaptorpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/07组合和迭代器模式/componentpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/07组合和迭代器模式/iteratorpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/08装饰模式/decoratorpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/09策略模式/strategePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/10模板方法模式/templatemethodpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/11观察者模式/observerpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/12状态模式/statepattern/pom.xml" />
+        <option value="$PROJECT_DIR$/13责任链模式/dutychainpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/14桥接模式/brigepattern/pom.xml" />
+        <option value="$PROJECT_DIR$/15建造者模式/builderpattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
