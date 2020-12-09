@@ -23,6 +23,7 @@
         <module name="iteratorpattern" />
         <module name="decoratorpattern" />
         <module name="observerpattern" />
+        <module name="flyweightpattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/13责任链模式/dutychainpattern/pom.xml" />
         <option value="$PROJECT_DIR$/14桥接模式/brigepattern/pom.xml" />
         <option value="$PROJECT_DIR$/15建造者模式/builderpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/16蝇量模式/flyweightpattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

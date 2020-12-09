@@ -50,6 +50,7 @@
     <file url="file://$PROJECT_DIR$/13责任链模式/dutychainpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/14桥接模式/brigepattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/15建造者模式/builderpattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16蝇量模式/flyweightpattern" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
