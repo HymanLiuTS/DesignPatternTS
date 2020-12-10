@@ -19,6 +19,7 @@
         <module name="strategePattern" />
         <module name="eventpattern" />
         <module name="compoundpattern" />
+        <module name="interpreterpattern" />
         <module name="proxypattern" />
         <module name="statepattern" />
         <module name="iteratorpattern" />
