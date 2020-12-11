@@ -22,7 +22,7 @@ public class Originator {
         return new Memento(state);
     }
 
-    public void getStateFromMemento(Memento Memento){
-        state = Memento.getState();
+    public void getStateFromMemento(Memento memento){
+        state = memento.getState();
     }
 }
