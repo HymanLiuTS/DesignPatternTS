@@ -10,6 +10,7 @@
         <module name="dutychainpattern" />
         <module name="singletonpattern" />
         <module name="adaptorpattern" />
+        <module name="mediatorpattern" />
         <module name="commandpattern1" />
         <module name="builderpattern" />
         <module name="componentpattern" />
@@ -31,7 +32,6 @@
     <bytecodeTargetLevel>
       <module name="commandpattern" target="1.7" />
       <module name="compoundpattern" target="1.7" />
-      <module name="mediatorpattern" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
