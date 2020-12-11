@@ -6,8 +6,10 @@ package cn.codenest;
 public class App {
     public static void main(String[] args) {
 
-        User robert = new User("Robert");
-        User john = new User("John");
+        ChatRoom cr = new ChatRoom();
+
+        User robert = new User("Robert", cr);
+        User john = new User("John", cr);
 
         robert.sendMessage("Hi! John!");
         john.sendMessage("Hello! Robert!");
