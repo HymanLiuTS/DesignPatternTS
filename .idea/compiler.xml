@@ -31,6 +31,7 @@
     <bytecodeTargetLevel>
       <module name="commandpattern" target="1.7" />
       <module name="compoundpattern" target="1.7" />
+      <module name="mediatorpattern" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
