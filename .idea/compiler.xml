@@ -19,6 +19,7 @@
         <module name="templatemethodpattern" />
         <module name="strategePattern" />
         <module name="mementopattern" />
+        <module name="prototypepattern" />
         <module name="eventpattern" />
         <module name="compoundpattern" />
         <module name="interpreterpattern" />

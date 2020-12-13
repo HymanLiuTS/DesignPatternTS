@@ -29,6 +29,7 @@
         <option value="$PROJECT_DIR$/18解释器模式/interpreterpattern/pom.xml" />
         <option value="$PROJECT_DIR$/19中介者模式/mediatorpattern/pom.xml" />
         <option value="$PROJECT_DIR$/20备忘录模式/mementopattern/pom.xml" />
+        <option value="$PROJECT_DIR$/21原型模式/prototypepattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
