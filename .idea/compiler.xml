@@ -14,6 +14,7 @@
         <module name="commandpattern1" />
         <module name="builderpattern" />
         <module name="componentpattern" />
+        <module name="visitorpattern" />
         <module name="brigepattern" />
         <module name="factorypattern" />
         <module name="templatemethodpattern" />

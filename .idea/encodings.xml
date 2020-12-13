@@ -56,6 +56,7 @@
     <file url="file://$PROJECT_DIR$/19中介者模式/mediatorpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/20备忘录模式/mementopattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/21原型模式/prototypepattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/22访问者模式/visitorpattern" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
