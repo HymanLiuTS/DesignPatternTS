@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/20备忘录模式/mementopattern/pom.xml" />
         <option value="$PROJECT_DIR$/21原型模式/prototypepattern/pom.xml" />
         <option value="$PROJECT_DIR$/22访问者模式/visitorpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/23过滤器模式/filterpattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
