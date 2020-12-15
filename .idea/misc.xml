@@ -32,10 +32,13 @@
         <option value="$PROJECT_DIR$/21原型模式/prototypepattern/pom.xml" />
         <option value="$PROJECT_DIR$/22访问者模式/visitorpattern/pom.xml" />
         <option value="$PROJECT_DIR$/23过滤器模式/filterpattern/pom.xml" />
+        <option value="$PROJECT_DIR$/25MVC模式/MVCPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/24空对象模式/nullobjectpattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/25MVC模式/pom.xml" />
         <option value="$PROJECT_DIR$/commandpattern/pom.xml" />
         <option value="$PROJECT_DIR$/singletonpattern/pom.xml" />
       </set>
