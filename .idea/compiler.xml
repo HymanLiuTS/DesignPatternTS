@@ -30,6 +30,7 @@
         <module name="observerpattern" />
         <module name="mediatorpattern" />
         <module name="statepattern" />
+        <module name="compositeentitypattern" />
         <module name="iteratorpattern" />
         <module name="commandpattern1" />
         <module name="facadepattern" />

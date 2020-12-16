@@ -8,6 +8,7 @@
     <artifactId>designpatternts</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>compositeentitypattern</module>
     </modules>
     <packaging>pom</packaging>
 
