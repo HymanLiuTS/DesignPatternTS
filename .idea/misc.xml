@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/25MVC模式/MVCPattern/pom.xml" />
         <option value="$PROJECT_DIR$/24空对象模式/nullobjectpattern/pom.xml" />
         <option value="$PROJECT_DIR$/26业务代表模式/businessdelegatepattern/pom.xml" />
+        <option value="$PROJECT_DIR$/27组合实体模式/compositeentitypattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
