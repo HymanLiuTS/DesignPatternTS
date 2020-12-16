@@ -11,6 +11,7 @@
         <module name="dutychainpattern" />
         <module name="proxypattern" />
         <module name="singletonpattern" />
+        <module name="businessdelegatepattern" />
         <module name="adaptorpattern" />
         <module name="compoundpattern" />
         <module name="brigepattern" />
