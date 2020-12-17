@@ -36,6 +36,7 @@
         <option value="$PROJECT_DIR$/24空对象模式/nullobjectpattern/pom.xml" />
         <option value="$PROJECT_DIR$/26业务代表模式/businessdelegatepattern/pom.xml" />
         <option value="$PROJECT_DIR$/27组合实体模式/compositeentitypattern/pom.xml" />
+        <option value="$PROJECT_DIR$/28访问对象(DAO)模式/DataAccessObjectPattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

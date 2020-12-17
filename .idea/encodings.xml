@@ -63,6 +63,7 @@
     <file url="file://$PROJECT_DIR$/25MVC模式/MVCPattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/26业务代表模式/businessdelegatepattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/27组合实体模式/compositeentitypattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/28访问对象(DAO)模式/DataAccessObjectPattern" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
