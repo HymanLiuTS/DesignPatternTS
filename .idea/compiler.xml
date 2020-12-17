@@ -11,6 +11,7 @@
         <module name="factorypattern" />
         <module name="nullobjectpattern" />
         <module name="statepattern" />
+        <module name="FrontControllerPattern" />
         <module name="commandpattern1" />
         <module name="DataAccessObjectPattern" />
         <module name="prototypepattern" />
