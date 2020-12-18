@@ -15,6 +15,7 @@
         <module name="commandpattern1" />
         <module name="DataAccessObjectPattern" />
         <module name="prototypepattern" />
+        <module name="InterceptingFilterPattern" />
         <module name="compositeentitypattern" />
         <module name="compoundpattern" />
         <module name="mementopattern" />
