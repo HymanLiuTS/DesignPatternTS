@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="facadepattern" />
+        <module name="ServiceLocatorPattern" />
         <module name="templatemethodpattern" />
         <module name="factorypattern" />
         <module name="nullobjectpattern" />
@@ -17,13 +18,13 @@
         <module name="prototypepattern" />
         <module name="InterceptingFilterPattern" />
         <module name="compositeentitypattern" />
+        <module name="proxypattern" />
         <module name="compoundpattern" />
         <module name="mementopattern" />
         <module name="interpreterpattern" />
         <module name="filterpattern" />
-        <module name="builderpattern" />
+        <module name="observerpattern" />
         <module name="strategePattern" />
-        <module name="flyweightpattern" />
         <module name="mediatorpattern" />
         <module name="decoratorpattern" />
         <module name="brigepattern" />
@@ -34,10 +35,10 @@
         <module name="iteratorpattern" />
         <module name="dutychainpattern" />
         <module name="adaptorpattern" />
-        <module name="observerpattern" />
+        <module name="flyweightpattern" />
         <module name="visitorpattern" />
         <module name="MVCPattern" />
-        <module name="proxypattern" />
+        <module name="builderpattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
