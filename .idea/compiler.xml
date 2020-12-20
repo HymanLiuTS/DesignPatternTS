@@ -30,6 +30,7 @@
         <module name="brigepattern" />
         <module name="componentpattern" />
         <module name="singletonpattern" />
+        <module name="TransferObjectPattern" />
         <module name="businessdelegatepattern" />
         <module name="eventpattern" />
         <module name="iteratorpattern" />

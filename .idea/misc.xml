@@ -40,6 +40,7 @@
         <option value="$PROJECT_DIR$/29前端控制器模式/FrontControllerPattern/pom.xml" />
         <option value="$PROJECT_DIR$/30拦截过滤器模式/InterceptingFilterPattern/pom.xml" />
         <option value="$PROJECT_DIR$/31服务定位器模式/ServiceLocatorPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/32传输对象模式/TransferObjectPattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
