@@ -7,16 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="facadepattern" />
-        <module name="ServiceLocatorPattern" />
         <module name="templatemethodpattern" />
         <module name="factorypattern" />
         <module name="nullobjectpattern" />
-        <module name="statepattern" />
+        <module name="TransferObjectPattern" />
         <module name="FrontControllerPattern" />
         <module name="commandpattern1" />
         <module name="DataAccessObjectPattern" />
         <module name="prototypepattern" />
-        <module name="InterceptingFilterPattern" />
+        <module name="ServiceLocatorPattern" />
         <module name="compositeentitypattern" />
         <module name="proxypattern" />
         <module name="compoundpattern" />
@@ -30,13 +29,14 @@
         <module name="brigepattern" />
         <module name="componentpattern" />
         <module name="singletonpattern" />
-        <module name="TransferObjectPattern" />
+        <module name="InterceptingFilterPattern" />
         <module name="businessdelegatepattern" />
         <module name="eventpattern" />
         <module name="iteratorpattern" />
         <module name="dutychainpattern" />
         <module name="adaptorpattern" />
         <module name="flyweightpattern" />
+        <module name="statepattern" />
         <module name="visitorpattern" />
         <module name="MVCPattern" />
         <module name="builderpattern" />
@@ -45,7 +45,6 @@
     <bytecodeTargetLevel>
       <module name="_25MVC模式" target="1.7" />
       <module name="commandpattern" target="1.7" />
-      <module name="compoundpattern" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

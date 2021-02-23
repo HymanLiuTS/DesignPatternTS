@@ -15,5 +15,9 @@ public class App {
         System.out.println("\nNon-Veg Meal");
         nonVegMeal.showItems();
         System.out.println("Total Cost: " +nonVegMeal.getCost());
+
+        Meal meal=mealBuilder.
+                burger(new ChickenBurger()).
+                coldDrink(new Coke()).build();
     }
 }

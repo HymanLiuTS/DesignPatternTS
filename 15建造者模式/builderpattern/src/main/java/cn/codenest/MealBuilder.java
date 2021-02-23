@@ -9,6 +9,9 @@ package cn.codenest;
  */
 public class MealBuilder {
 
+    Burger burger;
+    ColdDrink coldDrink;
+
     public Meal prepareVegMeal (){
         Meal meal = new Meal();
         meal.addItem(new VegBurger());
@@ -22,4 +25,22 @@ public class MealBuilder {
         meal.addItem(new Pepsi());
         return meal;
     }
+
+    public MealBuilder burger(Burger burger) {
+        this.burger = burger;
+        return this;
+    }
+
+    public MealBuilder coldDrink(ColdDrink coldDrink) {
+        this.coldDrink = coldDrink;
+        return this;
+    }
+
+    public Meal build() {
+        Meal meal = new Meal();
+        meal.addItem(burger);
+        meal.addItem(coldDrink);
+        return meal;
+    }
+
 }
